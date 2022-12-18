@@ -1,1 +1,15 @@
-
+/**
+ * @param {array} grades
+ */
+function sumGradesAbove10(grades) {
+        let sum  = 0
+        grades.forEach(function(grade) {
+             if (grade >= 10) {
+                 sum = sum + grade
+                 }
+             })
+             return sum
+        }
+        
+        
+        
